@@ -26,17 +26,8 @@ APP体积变大很多，我们想确切知道每个库占用了多大空间，�
 
  输出：
  ```
-essageStream+CoreDataClass.o	246B
-Conversation+CoreDataClass.o	245B
-Relationship+CoreDataClass.o	245B
-Pagination+CoreDataClass.o	243B
-BaseModel+CoreDataClass.o	242B
-ConversationStream+CoreDataProperties.o	240B
-Message+CoreDataClass.o	240B
-Device+CoreDataClass.o	239B
-Stream+CoreDataClass.o	239B
-Badge+CoreDataClass.o	238B
-User+CoreDataClass.o	237B
-ImageIO.tbd	192B
+XXXXXStream+XXXXXClass.o	246B
+XXXXXConversation+XXXXClass.o	245B
+XXXXXRelationship+CoreDataClass.o	245B
 ...
  ```

@@ -11,7 +11,7 @@ XCode -> Project -> Build Settings -> Path to Link Map -> 自定义 Link Map Fil
 
 <br> 默认配置为：$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt
 <br>
-<br>在文件中的位置为：`/Users/dongshuju/Library/Developer/Xcode/DerivedData/OMI-fgjtbsbtvccsajbajxzzwxvgyzqc/Build/Intermediates.noindex/OMI.build/Debug-iphoneos/OMI.build/OMI-LinkMap-normal-arm64.txt`
+<br>在文件中的位置为：`/Users/dongshuju/Library/Developer/Xcode/DerivedData/YouProjectName-fgjtbsbtvccsajbajxzzwxvgyzqc/Build/Intermediates.noindex/YouProjectName.build/Debug-iphoneos/YouProjectName.build/YouProjectName-LinkMap-normal-arm64.txt`
 <br>
 <br>这个LinkMap里展示了整个可执行文件的全貌，列出了编译后的每一个.o目标文件的信息（包括静态链接库.a里的），以及每一个目标文件的代码段，数据段存储详情。
 这个文件可以让你了解整个APP编译后的情况，也许从中可以发现一些异常，还可以用这个文件计算静态链接库在项目里占的大小，有时候我们在项目里链了很多第三方库，导致
@@ -38,6 +38,5 @@ Stream+CoreDataClass.o	239B
 Badge+CoreDataClass.o	238B
 User+CoreDataClass.o	237B
 ImageIO.tbd	192B
-OMILocationRequestConstants.o	180B
 ...
  ```
